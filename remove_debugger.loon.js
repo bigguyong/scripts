@@ -11,5 +11,5 @@ Boxjs订阅：https://raw.githubusercontent.com/githubdulong/Script/master/boxjs
 const url = $request.url;
 const body = $response.body;
 
-# console.log("[Patrick]:\n" + url);
+// console.log("[Patrick]:\n" + url);
 $done({ body: body.replace('debugger','') });
