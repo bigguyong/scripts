@@ -1,7 +1,7 @@
 /*
 Loon
 [Script]
-http-response ^https?:\/\/(pharmsnap|micro)\.zhihuiya\.com requires-body=1,script-path=https://github.com/bigguyong/scripts/raw/main/remove_debugger.loon.js, tag=Remove Debugger
+http-response ^https?:\/\/(pharmsnap|micro|synapse)\.(zhihuiya|patsnap)\.com requires-body=1,script-path=https://github.com/bigguyong/scripts/raw/main/remove_debugger.loon.js, tag=Remove Debugger
 [MITM]
 hostname = pharmsnap.zhihuiya.com, micro.zhihuiya.com, synapse.patsnap.com, micro.patsnap.com
 
