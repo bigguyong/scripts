@@ -2,7 +2,7 @@
 #!desc=测试测试
 #!author=Patrick Gu
 #!homepage=https://github.com/bigguyong/scripts
-#!icon=https://pharmsnap.zhihuiya.com/img/mini_app_qr_code.cbf961cb.jpg
+#!icon=https://github.com/bigguyong/scripts/raw/main/60x60bb.jpg
 
 [MITM]
 hostname=pharmsnap.zhihuiya.com, micro.zhihuiya.com, synapse.patsnap.com, micro.patsnap.com
