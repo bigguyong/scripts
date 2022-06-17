@@ -1,0 +1,11 @@
+#!name=PharmSnap Plus
+#!desc=测试测试
+#!author=Patrick Gu
+#!homepage=https://github.com/bigguyong/scripts
+####!icon=https://raw.githubusercontent.com/58xinian/icon/master/Sub-Store1.png
+
+[MITM]
+hostname=pharmsnap.zhihuiya.com, micro.zhihuiya.com, synapse.patsnap.com, micro.patsnap.com
+
+[Script]
+http-response ^https?:\/\/(pharmsnap|micro|synapse)\.(zhihuiya|patsnap)\.com requires-body=1,script-path=https://github.com/bigguyong/scripts/raw/main/remove_debugger.loon.js, tag=Remove Debugger
